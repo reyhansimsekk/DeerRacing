@@ -1,4 +1,4 @@
-using racingFinal;
+using RacingFinal;
 using System;
 using System.Windows.Forms;
 
@@ -9,7 +9,7 @@ namespace ImageRace
         [STAThread]
         static void Main()
         {
-            // .NET 6/7/8'de uygulama yapýlandýrmasý
+            // Application configuration for .NET 6/7/8.
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }
